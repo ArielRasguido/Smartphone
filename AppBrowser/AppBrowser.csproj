@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{28482C1F-25C7-487F-9ABB-E3C1A0E86CCD}</ProjectGuid>
+    <ProjectGuid>{B03F1D5C-EF32-4250-9A96-E00D44202FE4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Smartphone</RootNamespace>
-    <AssemblyName>Smartphone</AssemblyName>
+    <RootNamespace>AppBrowser</RootNamespace>
+    <AssemblyName>AppBrowser</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,14 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AparatoElectronico.cs" />
-    <Compile Include="Aplicacion.cs" />
-    <Compile Include="AppBrowser.cs" />
-    <Compile Include="AppLlamadas.cs" />
-    <Compile Include="ITelefono.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Smarthphone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
